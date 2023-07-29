@@ -1,0 +1,17 @@
+# Counting number of reads :
+wc -l
+# divide the result by 4 to get the number of reads
+
+# Counting number of bases :
+
+# Phased Assmeblies :
+cat maternal.bp.hap1.p_ctg.fa | paste - - - - | cut -f 2 | tr -d '\n' | wc -c
+cat maternal.bp.hap2.p_ctg.fa | paste - - - - | cut -f 2 | tr -d '\n' | wc -c
+cat paternal.bp.hap1.p_ctg.fa | paste - - - - | cut -f 2 | tr -d '\n' | wc -c
+cat paternal.bp.hap2.p_ctg.fa | paste - - - - | cut -f 2 | tr -d '\n' | wc -c
+
+# Primary Assemblies :
+cat maternal.p_ctg.fa | paste - - - - | cut -f 2 | tr -d '\n' | wc -c
+cat maternal.p_utg.fa | paste - - - - | cut -f 2 | tr -d '\n' | wc -c
+cat paternal.p_ctg.fa | paste - - - - | cut -f 2 | tr -d '\n' | wc -c
+cat paternal.p_utg.fa | paste - - - - | cut -f 2 | tr -d '\n' | wc -c
