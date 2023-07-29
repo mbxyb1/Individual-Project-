@@ -14,4 +14,4 @@ module load anaconda-uon/3
 
 /gpfs01/home/mbxyb1/envs/hifiasm/hifiasm -o /gpfs01/share/Yant_Group_Shared/Yash/OandE/21/hifiasm/phased/maternal -t 24 /gpfs01/share/Yant_Group_Shared/Yash/OandE/21/classified/maternal.fa$
 
-
+ 
