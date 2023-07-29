@@ -1,0 +1,17 @@
+#Phased Assemblies:
+awk '/^S/{print ">"$2;print $3}' maternal.bp.hap1.p_ctg.gfa > maternal.bp.hap1.p_ctg.fa
+
+awk '/^S/{print ">"$2;print $3}' maternal.bp.hap2.p_ctg.gfa > maternal.bp.hap2.p_ctg.fa
+
+awk '/^S/{print ">"$2;print $3}' paternal.bp.hap1.p_ctg.gfa > paternal.bp.hap1.p_ctg.fa
+
+awk '/^S/{print ">"$2;print $3}' paternal.bp.hap2.p_ctg.gfa > paternal.bp.hap2.p_ctg.fa
+
+#Primary Assemblies:
+awk '/^S/{print ">"$2;print $3}' maternal.p_ctg.gfa > maternal.p_ctg.fa
+
+awk '/^S/{print ">"$2;print $3}' maternal.p_utg.gfa > maternal.p_utg.fa
+
+awk '/^S/{print ">"$2;print $3}' paternal.p_ctg.gfa > paternal.p_ctg.fa
+
+awk '/^S/{print ">"$2;print $3}' paternal.p_utg.gfa > paternal.p_utg.fa
