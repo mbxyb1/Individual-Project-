@@ -16,7 +16,7 @@ Run the scripts in this order for each kmer value you choose to use:
 5)busco
 
 Output files from find_unique_kmers are used in classify_by_kmers script and those from classify_by_kmers are used in hifiasm_assembly.
-Two types of assmeblies are run - phased and primary on both the parental pools (maternal and paternal).
+Two types of assmeblies are run - phased and primary on both the parental pools (maternal and paternal). Since, classify_by_kmers doesn't give us an appropriate output for Kmer values 121 and 141, I ahve excluded the hifiasm_assembly scripts for those kmer values.
 Quast and busco scripts are run on the output files from hifiasm_assembly.
 
 I have also included scripts to convert .gfa(graphical fragment assembly) output files from hifiasm_assembly into .fa (fasta) files which are then input into quast and busco.
