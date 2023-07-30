@@ -22,5 +22,6 @@ Quast and busco scripts are run on the output files from hifiasm_assembly.
 I have also included scripts to convert .gfa(graphical fragment assembly) output files from hifiasm_assembly into .fa (fasta) files which are then input into quast and busco.
 Furthermore, I have also included code to count the number of reads and bases in a fasta file which is required for this project.
 A busco plot script to make a comparison plot is also included.
-Lastly, I have included R scripts to plot the different quast metrics obtained from the quast reports.I
+I have attached quast reports and two summary files with all quast report altogether.
+Lastly, I have included R scripts to plot the different quast metrics obtained from the quast reports. This script is run on the two different assembly quast summaries. 
 
